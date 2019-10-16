@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i|Playfair+Display:700&display=swap');
+
+body{
+background: #fafafa;
+font: 300 18px/1.8 Lato, sans-serif;
+color: #171717;
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 1400px;
+	padding: 130px 100px; 
+	
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-post{
+	background: #ffffff;
+	padding: 92px 121px 135px 122px;
+	box-shadow: 1px 1px 120px 1px rgba(15, 11, 11, 0.1);
+	position: relative;
+	letter-spacing: 1.2px;
+	margin: 0;
+}
+.ba-title{
+font: 400 42px/1.7 'Playfair+Display', serif;
+color: #171717;
+letter-spacing: 1.1px;
+}
+p{
+	margin top: 20px;
+	line-height: 1.5;
+	padding: 18px;
+	color: #969696;
+
+}
+.ba-first-letter{
+	vertical-align: bottom;
+	font-size: 110px;
+	float: left;
+	padding: 0 15px 15px 15px;
+	margin-right: 5px;
+	line-height: 0.6;
+	color: black;
+	font-family: 'Playfair+Display', serif;
+	
+}
+.ba-end {
+	font: italic 300 24px/1.2 Lato, sans-serif;
+	letter-spacing: 1.7px;
+}
+.ba-end:before{
+	content: '"';
+	font-size: 40px;
+	padding: 25px 15px;
+}
+.ba-button{
+	border: 2px solid #edae6d;
+	color: #edae6d;
+	background: #ffff;
+	padding: 16px 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
