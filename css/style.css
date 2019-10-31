@@ -9,7 +9,7 @@ color: #171717;
 
 /* Layout */
 .ba-container{
-	max-width: 1400px;
+	max-width: 1600px;
 	padding: 130px 100px; 
 	
 }
@@ -59,33 +59,32 @@ textarea {
 .ba-post{
 	background: #ffffff;
 	padding: 92px 121px 135px 122px;
-	box-shadow: 1px 1px 120px 1px rgba(15, 11, 11, 0.1);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 	position: relative;
 	letter-spacing: 1.2px;
 	margin: 0;
 }
 .ba-title{
-font: 400 42px/1.7 'Playfair+Display', serif;
+font: 200 42px/1.7 'Playfair Display', serif;
 color: #171717;
-letter-spacing: 1.1px;
+letter-spacing: 0.2px;
+margin: 28px 0 7px;
 }
 p{
-	margin top: 20px;
-	line-height: 1.5;
-	padding: 18px;
+	margin-bottom: 43px;
+	line-height: 1.8;
 	color: #969696;
 
 }
-.ba-first-letter{
+article p:first-of-type:first-letter{
 	vertical-align: bottom;
 	font-size: 110px;
 	float: left;
-	padding: 0 15px 15px 15px;
-	margin-right: 5px;
-	line-height: 0.6;
+	margin-right: 20px;
+	line-height: 0.8;
 	color: black;
-	font-family: 'Playfair+Display', serif;
-	
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
 }
 .ba-end {
 	font: italic 300 24px/1.2 Lato, sans-serif;
@@ -103,4 +102,10 @@ p{
 	padding: 16px 80px;
 	text-decoration: none;
 	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 900;
+}
+.ba-button:hover{
+	background: #edae6d;
+	color: #ffffff;
 }
